@@ -1,0 +1,919 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/venv/Chage_sharp_prototype.py" description="path = test_pro_path" line="31" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="13384173-9b0b-40c6-ac63-177a4a3fbdaa" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Hellow$Load_File.coverage" NAME="Load_File Coverage Results" MODIFIED="1541061292633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
+    <SUITE FILE_PATH="coverage/Hellow$OC_mix_Pro.coverage" NAME="OC_mix_Pro Coverage Results" MODIFIED="1542862030118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
+    <SUITE FILE_PATH="coverage/Hellow$oc_script_mix.coverage" NAME="oc_script_mix Coverage Results" MODIFIED="1540020015448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
+    <SUITE FILE_PATH="coverage/Hellow$C_Sharp_Create__1_.coverage" NAME="C_Sharp_Create (1) Coverage Results" MODIFIED="1544427800697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CSharpMaker" />
+    <SUITE FILE_PATH="coverage/Hellow$Load_ALL_H.coverage" NAME="Load_ALL_H Coverage Results" MODIFIED="1543199911614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Hellow$Load_ALL_H__1_.coverage" NAME="Load_ALL_H (1) Coverage Results" MODIFIED="1544081397403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Get_H_List" />
+    <SUITE FILE_PATH="coverage/Hellow$Change_OS_File.coverage" NAME="Change_OS_File Coverage Results" MODIFIED="1540866534342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
+    <SUITE FILE_PATH="coverage/Hellow$Function_cfg.coverage" NAME="Function_cfg Coverage Results" MODIFIED="1541410686489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
+    <SUITE FILE_PATH="coverage/Hellow$Clean.coverage" NAME="Clean Coverage Results" MODIFIED="1545905436462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Check" />
+    <SUITE FILE_PATH="coverage/Hellow$Random_file_maker.coverage" NAME="Random_file_maker Coverage Results" MODIFIED="1539599693784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
+    <SUITE FILE_PATH="coverage/Hellow$Chage_sharp_prototype.coverage" NAME="Chage_sharp_prototype Coverage Results" MODIFIED="1541989827050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
+    <SUITE FILE_PATH="coverage/Hellow$function_cfg.coverage" NAME="function_cfg Coverage Results" MODIFIED="1541582938827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
+    <SUITE FILE_PATH="coverage/Hellow$mark_oc_Script__1_.coverage" NAME="mark_oc_Script (1) Coverage Results" MODIFIED="1544426638757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/Out_Mix/Out/new" />
+    <SUITE FILE_PATH="coverage/Hellow$xml_change.coverage" NAME="xml_change Coverage Results" MODIFIED="1540276840116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Hellow$Change_Image.coverage" NAME="Change_Image Coverage Results" MODIFIED="1545901952314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AutoChange" />
+    <SUITE FILE_PATH="coverage/Hellow$ini_config.coverage" NAME="ini_config Coverage Results" MODIFIED="1540780646423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
+    <SUITE FILE_PATH="coverage/Hellow$Change_resolution.coverage" NAME="Change_resolution Coverage Results" MODIFIED="1545817030924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/Work/SDK相关/SDK_File/iOS/14-拉克斯/拉克丝-摩卡美少女-幻想纪元0828/拉克丝-诺文尼亚/02幻想二次元/拉克丝-诺文尼亚-幻想二次元/Icon" />
+    <SUITE FILE_PATH="coverage/Hellow$hello.coverage" NAME="hello Coverage Results" MODIFIED="1541152635986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Hellow$pro_Cfg.coverage" NAME="pro_Cfg Coverage Results" MODIFIED="1542091884161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
+    <SUITE FILE_PATH="coverage/Hellow$mark_oc_Script__2_.coverage" NAME="mark_oc_Script (2) Coverage Results" MODIFIED="1544427138971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/Out_Mix" />
+    <SUITE FILE_PATH="coverage/Hellow$C_Sharp_Create.coverage" NAME="C_Sharp_Create Coverage Results" MODIFIED="1545019184861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/Out_Mix_C" />
+    <SUITE FILE_PATH="coverage/Hellow$Load_ALL_H__2_.coverage" NAME="Load_ALL_H (2) Coverage Results" MODIFIED="1544082918706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/Out_Mix" />
+    <SUITE FILE_PATH="coverage/Hellow$mark_oc_Script.coverage" NAME="mark_oc_Script Coverage Results" MODIFIED="1544274043113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Get_H_List" />
+    <SUITE FILE_PATH="coverage/Hellow$Script_load_mix.coverage" NAME="Script_load_mix Coverage Results" MODIFIED="1541148006051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
+    <SUITE FILE_PATH="coverage/Hellow$Img_Change.coverage" NAME="Img_Change Coverage Results" MODIFIED="1544084476114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/File_Mix_Pro" />
+    <SUITE FILE_PATH="coverage/Hellow$OS_mix.coverage" NAME="OS_mix Coverage Results" MODIFIED="1539245656595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Hellow$os_Demo.coverage" NAME="os_Demo Coverage Results" MODIFIED="1540612112795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
+    <SUITE FILE_PATH="coverage/Hellow$AutoChangeDemo.coverage" NAME="AutoChangeDemo Coverage Results" MODIFIED="1545378788280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AutoChange" />
+    <SUITE FILE_PATH="coverage/Hellow$filtrate_cs.coverage" NAME="filtrate_cs Coverage Results" MODIFIED="1541661688213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="735146558">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="22" />
+          <entry key="project.open.time.197" value="1" />
+          <entry key="project.open.time.21" value="2" />
+          <entry key="project.open.time.23" value="3" />
+          <entry key="project.open.time.24" value="5" />
+          <entry key="project.open.time.25" value="7" />
+          <entry key="project.open.time.26" value="2" />
+          <entry key="project.open.time.27" value="10" />
+          <entry key="project.open.time.28" value="4" />
+          <entry key="project.open.time.29" value="5" />
+          <entry key="project.open.time.31" value="3" />
+          <entry key="project.open.time.32" value="3" />
+          <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.36" value="3" />
+          <entry key="project.open.time.37" value="1" />
+          <entry key="project.open.time.38" value="1" />
+          <entry key="project.open.time.42" value="1" />
+          <entry key="project.open.time.5" value="4" />
+          <entry key="project.open.time.57" value="1" />
+          <entry key="project.open.time.59" value="2" />
+          <entry key="project.open.time.6" value="3" />
+          <entry key="project.open.time.61" value="1" />
+          <entry key="project.open.time.70" value="1" />
+          <entry key="project.opened" value="66" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="44" value="1" />
+          <entry key="C_sharp_change_prototype" value="1" />
+          <entry key="Find_All_Log" value="1" />
+          <entry key="JPG" value="1" />
+          <entry key="PNG" value="5" />
+          <entry key="XMl_text" value="4" />
+          <entry key="aaa" value="1" />
+          <entry key="cfg" value="33" />
+          <entry key="h" value="3" />
+          <entry key="ini" value="9" />
+          <entry key="jpg" value="5" />
+          <entry key="json" value="12" />
+          <entry key="mm" value="5" />
+          <entry key="nameLib" value="4" />
+          <entry key="png" value="1" />
+          <entry key="py" value="167" />
+          <entry key="txt" value="51" />
+          <entry key="wlnh1" value="1" />
+          <entry key="xml" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="C++" value="3" />
+          <entry key="Image" value="12" />
+          <entry key="Ini" value="40" />
+          <entry key="JSON" value="12" />
+          <entry key="PLAIN_TEXT" value="73" />
+          <entry key="Python" value="165" />
+          <entry key="XML" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cfg" value="294" />
+          <entry key="dummy" value="1" />
+          <entry key="ini" value="167" />
+          <entry key="json" value="10" />
+          <entry key="nameLib" value="1" />
+          <entry key="py" value="49024" />
+          <entry key="txt" value="439" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Ini" value="456" />
+          <entry key="JSON" value="10" />
+          <entry key="PLAIN_TEXT" value="487" />
+          <entry key="Python" value="48981" />
+          <entry key="RegExp" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.vcs.git.usages" />
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AutoChange/Change_Image.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="e#22#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Check/Clean.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="e#22#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>^.+</find>
+      <find>^.+$</find>
+      <find>^[\S]+</find>
+      <find>([a-z]+)(?:\,|\))</find>
+      <find>(?&lt;=(char))</find>
+      <find>\s([a-z]+)(?:\,|\))</find>
+      <find>(\(|\,)(.+)(\,|\))</find>
+      <find>(\w+)\s[\S]+(\(|\,)(.*)(\,|\))</find>
+      <find>ivoke_class</find>
+      <find>print</find>
+      <find>Contents.json</find>
+      <find>PWuLTOXpCY</find>
+      <find>dtdkStp</find>
+      <find>None</find>
+      <find>mix_jpg</find>
+      <find>OC_mix_1</find>
+      <find>rue</find>
+      <find>with</find>
+      <find>sub</find>
+      <find>pjlakesi</find>
+      <find>vent</find>
+      <find>\,vent\,</find>
+      <find>in_list</find>
+      <find>sharedHelper</find>
+      <find>100</find>
+      <find>ANTIALIAS</find>
+      <find>im.</find>
+      <find>im\.</find>
+      <find>depth</find>
+      <find>im\.m</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>{</replace>
+      <replace>}</replace>
+      <replace>\1}</replace>
+      <replace>invoke_class</replace>
+      <replace>r_content</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/venv/oc_script_mix.py" />
+        <option value="$PROJECT_DIR$/XMl_text" />
+        <option value="$PROJECT_DIR$/venv/xml_change.py" />
+        <option value="$PROJECT_DIR$/venv/MixFile/BackCfg/course.txt" />
+        <option value="$PROJECT_DIR$/file_list.cfg" />
+        <option value="$PROJECT_DIR$/venv/os_Demo.py" />
+        <option value="$PROJECT_DIR$/ini_config.py" />
+        <option value="$PROJECT_DIR$/venv/cfg.ini" />
+        <option value="$PROJECT_DIR$/venv/ini_config.py" />
+        <option value="$PROJECT_DIR$/pow_cfg.cfg" />
+        <option value="$PROJECT_DIR$/venv/mix_cfg.cfg" />
+        <option value="$PROJECT_DIR$/venv/Change_OS_File.py" />
+        <option value="$PROJECT_DIR$/EightWrapper.h" />
+        <option value="$PROJECT_DIR$/venv/nameLib" />
+        <option value="$PROJECT_DIR$/venv/Load_File.py" />
+        <option value="$PROJECT_DIR$/venv/C_sharp_change_prototype.py" />
+        <option value="$PROJECT_DIR$/venv/back_list.cfg" />
+        <option value="$PROJECT_DIR$/venv/RegularExpressionLib.cfg" />
+        <option value="$PROJECT_DIR$/venv/Function_cfg.py" />
+        <option value="$PROJECT_DIR$/venv/Find_All_Log.txt" />
+        <option value="$PROJECT_DIR$/venv/function_cfg.py" />
+        <option value="$PROJECT_DIR$/venv/Chage_sharp_prototype.py" />
+        <option value="$PROJECT_DIR$/venv/UseCfg.cfg" />
+        <option value="$PROJECT_DIR$/venv/FunctionName.cfg" />
+        <option value="$PROJECT_DIR$/venv/Pro_Cfg.py" />
+        <option value="$PROJECT_DIR$/venv/pro_Cfg.py" />
+        <option value="$PROJECT_DIR$/OC_mix——1.txt" />
+        <option value="$PROJECT_DIR$/venv/Random_file_maker.py" />
+        <option value="$PROJECT_DIR$/venv/Script_load_mix.py" />
+        <option value="$PROJECT_DIR$/venv/OC_mix_Pro.py" />
+        <option value="$PROJECT_DIR$/venv/C_Sharp_Create.py" />
+        <option value="$PROJECT_DIR$/lib.txt" />
+        <option value="$PROJECT_DIR$/OC_mix.txt" />
+        <option value="$PROJECT_DIR$/OC_mix_1.txt" />
+        <option value="$PROJECT_DIR$/Load_ALL_H.py" />
+        <option value="$PROJECT_DIR$/venv/filtrate_cs.py" />
+        <option value="E:/Out_Mix/Load_ALL_H.py" />
+        <option value="$PROJECT_DIR$/Get_H_List/OC_mix.txt" />
+        <option value="$PROJECT_DIR$/Get_H_List/README.txt" />
+        <option value="$PROJECT_DIR$/Get_H_List/Load_ALL_H.py" />
+        <option value="$PROJECT_DIR$/Auto_Change_resolution/Change_resolution.py" />
+        <option value="E:/Out_Mix/Out/new/mark_oc_Script.py" />
+        <option value="$PROJECT_DIR$/CSharpMaker/C_Sharp_Create.py" />
+        <option value="E:/Out_Mix_C/C_Sharp_Create.py" />
+        <option value="$PROJECT_DIR$/Get_H_List/mark_oc_Script.py" />
+        <option value="$PROJECT_DIR$/File_Mix_Pro/Img_Change.py" />
+        <option value="E:/Out_Mix/mark_oc_Script.py" />
+        <option value="$PROJECT_DIR$/AutoChange/AutoChangeDemo.py" />
+        <option value="E:/Work/SDK相关/SDK_File/iOS/14-拉克斯/拉克丝-摩卡美少女-幻想纪元0828/拉克丝-诺文尼亚/02幻想二次元/拉克丝-诺文尼亚-幻想二次元/Icon/Change_resolution.py" />
+        <option value="$PROJECT_DIR$/AutoChange/Change_Image.py" />
+        <option value="$PROJECT_DIR$/Check/Clean.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="271" />
+    <option name="y" value="250" />
+    <option name="width" value="1364" />
+    <option name="height" value="765" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Bitwise operation issuesJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsJavaScript</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="Hellow" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="Hellow" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="venv" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Hellow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hellow" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hellow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hellow" type="462c0819:PsiDirectoryNode" />
+              <item name="Auto_Change_resolution" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hellow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hellow" type="462c0819:PsiDirectoryNode" />
+              <item name="AutoChange" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hellow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hellow" type="462c0819:PsiDirectoryNode" />
+              <item name="Check" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hellow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hellow" type="462c0819:PsiDirectoryNode" />
+              <item name="CSharpMaker" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hellow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hellow" type="462c0819:PsiDirectoryNode" />
+              <item name="File_Mix_Pro" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hellow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/xml_text.txt" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/xml_text.txt" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PycharmProjects" />
+      <recent name="D:\PycharmProjects\Hellow\Get_H_List" />
+      <recent name="D:\PycharmProjects\Hellow" />
+      <recent name="D:\PycharmProjects\Hellow\venv" />
+      <recent name="D:\PycharmProjects\Hellow\venv\Lib\site-packages" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PycharmProjects\Hellow\CSharpMaker" />
+      <recent name="D:\PycharmProjects\Hellow" />
+      <recent name="D:\PycharmProjects\Hellow\Get_H_List" />
+      <recent name="D:\PycharmProjects\Hellow\venv" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.Clean">
+    <configuration name="AutoChangeDemo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Hellow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AutoChange" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AutoChange/AutoChangeDemo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="C_Sharp_Create" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Hellow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="E:/Out_Mix_C" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:/Out_Mix_C/C_Sharp_Create.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Change_Image" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Hellow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AutoChange" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AutoChange/Change_Image.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Change_resolution" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Hellow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="E:/Work/SDK相关/SDK_File/iOS/14-拉克斯/拉克丝-摩卡美少女-幻想纪元0828/拉克丝-诺文尼亚/02幻想二次元/拉克丝-诺文尼亚-幻想二次元/Icon" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:/Work/SDK相关/SDK_File/iOS/14-拉克斯/拉克丝-摩卡美少女-幻想纪元0828/拉克丝-诺文尼亚/02幻想二次元/拉克丝-诺文尼亚-幻想二次元/Icon/Change_resolution.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Clean" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Hellow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Check" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Check/Clean.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="OS_mix" type="PythonConfigurationType" factoryName="Python">
+      <module name="Hellow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OS_mix.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="hello" type="PythonConfigurationType" factoryName="Python">
+      <module name="Hellow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hello.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.hello" />
+      <item itemvalue="Python.OS_mix" />
+      <item itemvalue="Python.C_Sharp_Create" />
+      <item itemvalue="Python.Clean" />
+      <item itemvalue="Python.Change_Image" />
+      <item itemvalue="Python.AutoChangeDemo" />
+      <item itemvalue="Python.Change_resolution" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Clean" />
+        <item itemvalue="Python.Change_Image" />
+        <item itemvalue="Python.Change_resolution" />
+        <item itemvalue="Python.AutoChangeDemo" />
+        <item itemvalue="Python.C_Sharp_Create" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="13384173-9b0b-40c6-ac63-177a4a3fbdaa" name="Default Changelist" comment="" />
+      <created>1539229298765</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1539229298765</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="271" y="250" width="1364" height="765" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33588958" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32947975" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39473686" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="11" weight="0.32893157" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.32977304" />
+      <window_info anchor="bottom" id="Python Console" order="13" />
+      <window_info anchor="bottom" id="Thumbnails" order="14" weight="0.32977304" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32910448" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.mm" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Get_H_List/Load_ALL_H.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/AutoChange/AutoChangeDemo.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/venv/Random_file_maker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/pro_Cfg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/os_Demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/OC_mix_Pro.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="97" column="24" lean-forward="true" selection-start-line="97" selection-start-column="24" selection-end-line="97" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/oc_script_mix.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/mix_cfg.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/function_cfg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Get_H_List/OC_mix_1.txt" />
+    <entry file="file://$PROJECT_DIR$/venv/Change_OS_File.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-361">
+          <caret line="22" column="38" lean-forward="true" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSharpMaker/nameLib" />
+    <entry file="file://$PROJECT_DIR$/venv/iOS_mix.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="82" column="47" lean-forward="true" selection-start-line="82" selection-start-column="47" selection-end-line="82" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/ini_config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Chage_sharp_prototype.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="126" column="40" selection-start-line="126" selection-start-column="40" selection-end-line="126" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EightWrapper.txt" />
+    <entry file="file://$PROJECT_DIR$/EightWrapper.mm" />
+    <entry file="file://$PROJECT_DIR$/EightWrapper.h" />
+    <entry file="file://$PROJECT_DIR$/file_list.cfg">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GameNode.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="50" column="22" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ini_config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pow_cfg.cfg">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/cfg.ini">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/course.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/filtrate_cs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="13" column="69" selection-start-line="13" selection-start-column="69" selection-end-line="13" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Script_load_mix.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1558">
+          <caret line="88" column="11" lean-forward="true" selection-start-line="88" selection-start-column="11" selection-end-line="88" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/xml_change.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pow_cfg.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://E:/Out_Mix/Load_ALL_H.py" />
+    <entry file="file://$PROJECT_DIR$/Get_H_List/OC_mix.txt" />
+    <entry file="file://D:/Python_Path/Lib/random.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5111">
+          <caret line="276" selection-start-line="276" selection-end-line="276" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20273">
+          <caret line="1067" selection-start-line="1067" selection-end-line="1067" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Load_File.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XMl_text">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/back_list.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Get_H_List/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Get_H_List/Load_ALL_H.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSharpMaker/lib.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret column="120845" selection-start-column="120839" selection-end-column="120845" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Out_Mix/Out/new/mark_oc_Script.py" />
+    <entry file="file://$PROJECT_DIR$/../Hello/venv/Lib/PIL/_util.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/numpy/ma/timer_comparison.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoChange/AutoChangeDemo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#39#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/PIL/Image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5567">
+          <caret line="298" column="32" selection-start-line="298" selection-start-column="28" selection-end-line="298" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/File_Mix_Pro/Img_Change.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Out_Mix/mark_oc_Script.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="28" column="70" selection-start-line="28" selection-start-column="70" selection-end-line="28" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSharpMaker/C_Sharp_Create.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Out_Mix_C/C_Sharp_Create.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Get_H_List/mark_oc_Script.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3876">
+          <caret line="209" column="14" selection-start-line="209" selection-start-column="14" selection-end-line="209" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Auto_Change_resolution/Change_resolution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-330">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Work/SDK相关/SDK_File/iOS/14-拉克斯/拉克丝-摩卡美少女-幻想纪元0828/拉克丝-诺文尼亚/02幻想二次元/拉克丝-诺文尼亚-幻想二次元/Icon/Change_resolution.py" />
+    <entry file="file://$PROJECT_DIR$/AutoChange/Change_Image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#22#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Check/Clean.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#22#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

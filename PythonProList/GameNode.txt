@@ -1,0 +1,257 @@
+import ShopperNode from "./ShopperNode";
+import Store from "./Store";
+import StoreNode from "./StoreNode";
+import BuildingNode from "./BuildingNode";
+import Manager from "../../common/Manager";
+import LiftNode from "./LiftNode";
+import Lift from "./Lift";
+import MyNotification from "../../common/MyNotification";
+import Utility from "../../common/Utility";
+import * as Config from '../../common/Config'
+import Wx from "../../tools/wx/Wx";
+import NetManager from "../../common/NetManager";
+
+// Learn TypeScript:
+//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/typescript.html
+//  - [English] http://www.cocos2d-x.org/docs/creator/manual/en/scripting/typescript.html
+// Learn Attribute:
+//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/reference/attributes.html
+//  - [English] http://www.cocos2d-x.org/docs/creator/manual/en/scripting/reference/attributes.html
+// Learn life-cycle callbacks:
+//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/life-cycle-callbacks.html
+//  - [English] http://www.cocos2d-x.org/docs/creator/manual/en/scripting/life-cycle-callbacks.html
+
+const { ccclass, property } = cc._decorator;
+
+@ccclass
+export default class GameNode extends cc.Component {
+
+    @property(ShopperNode)
+    private shopperNode: ShopperNode = null;
+    @property(StoreNode)
+    private storeNode: StoreNode = null;
+    @property(BuildingNode)
+    private buildingNode: BuildingNode = null;
+    @property(LiftNode)
+    private liftNode: LiftNode = null;
+
+    private maxY: number = 0;
+    private readonly shopFloorHeigh: number = 220;
+
+    @property(cc.SpriteAtlas)
+    private building1Atlas: cc.SpriteAtlas = null;
+    @property(cc.SpriteAtlas)
+    private building2Atlas: cc.SpriteAtlas = null;
+    @property(cc.SpriteAtlas)
+    private building3Atlas: cc.SpriteAtlas = null;
+    @property(cc.Sprite)
+    private topFloor: cc.Sprite = null;
+    @property(cc.Sprite)
+    private firstFloor: cc.Sprite = null;
+    @property(cc.Node)
+    private View: cc.Node = null;
+    @property(cc.Node)
+    private View2: cc.Node = null;
+    @property(cc.Node)
+    private View3: cc.Node = null;
+
+    onLoad() {
+        Manager.CurBuilding = 1;
+        this.maxY = -Utility.getScreenSize().height / 2;
+        this.addTouchListener();
+        this.node.height = this.node.height + this.shopFloorHeigh * Manager.getFloorLevel();
+    }
+
+    start() {
+
+        MyNotification.addCallback(MyNotification.callbackType.upgradeCommodity, (floorLevel: number) => {
+            this.upgradeCommodity(floorLevel);
+        });
+        MyNotification.addCallback(MyNotification.callbackType.upgradeHandle, (floorLevel: number) => {
+            this.upgradeHandle(floorLevel);
+        });
+        MyNotification.addCallback(MyNotification.callbackType.upgradeStock, (floorLevel: number) => {
+            this.upgradeStock(floorLevel);
+        });
+        MyNotification.addCallback(MyNotification.callbackType.upgradeLift, () => {
+            this.upgradeLift();
+        });
+
+        //移除所有节点
+        MyNotification.addCallback(MyNotification.callbackType.removeAllNode, () => { this.removeAllNode(); });
+        //重新初始化
+        MyNotification.addCallback(MyNotification.callbackType.reinit, (building: number) => { this.reinit(building); });
+
+        this.shopperNode.buyCommodityCallback = (floorNum: number) => {
+
+            this.storeNode.buyCommodity(floorNum);
+        }
+        this.shopperNode.getHaveGoodsCallback = (floorNum: number) => {
+
+            return this.storeNode.haveGoods(floorNum);
+        }
+
+        this.storeNode.newFloorCallback = (floorNum: number, posNode: cc.Node, lift: Lift, liftPosNode: cc.Node) => {
+            this.shopperNode.setShopPosNode(posNode, floorNum);
+            this.liftNode.setStore(floorNum, liftPosNode, lift);
+        }
+        this.storeNode.buyCommodityEndCallback = (floorNum: number) => {
+            this.shopperNode.buySuccess(floorNum);
+            Manager.addMoneyNumber(Manager.getCurCommodityCellInfo(floorNum).sellPrice.multipliedBy(Manager.getIncomeRatio()));
+            if (Manager.getIntroductionType() == Config.IntroductionType.BeingMoneyCounter1 ||
+                //Manager.getIntroductionType() == Config.IntroductionType.BeingMoneyCounter2 ||
+                (Manager.getIntroductionType() == Config.IntroductionType.BeingWaiter && Manager.gooodsIsDone)) {
+                Manager.plusIntroductionType();
+                MyNotification.runCallback(MyNotification.callbackType.showIntroduction);
+            }
+        }
+        this.liftNode.getLackOfGoodsNumCallback = (floorNum: number) => {
+            return this.storeNode.getLackCommodityNumber(floorNum);
+        }
+        this.liftNode.supplementStockCallback = (floorNum: number, num: number, pos: cc.Vec2) => {
+            this.storeNode.supplementStock(floorNum, num, pos);
+            this.shopperNode.refreshGoods(floorNum);
+        }
+        this.storeNode.supplementGoodsCompleteCallback = (floorLevel: number) => {
+            this.shopperNode.refreshGoods(floorLevel);
+            // console.log("-----",Manager.getIntroductionType());
+            if (Manager.getIntroductionType() == Config.IntroductionType.BeingGoods1
+                /*|| Manager.getIntroductionType() == Config.IntroductionType.BeingGoods2*/) {
+                // console.log("++")
+                Manager.plusIntroductionType();
+                MyNotification.runCallback(MyNotification.callbackType.showIntroduction);
+            }
+        }
+    }
+
+    public unlockNewFloor() {
+
+        this.storeNode.addNewFloor();
+        this.buildingNode.addNewFloor();
+        this.node.height = this.node.height + this.shopFloorHeigh;
+    }
+
+    private buyNewFloorClick() {
+        Manager.playSoundEffect(Config.SoundEffectType.ButtonClick);
+        if (Manager.canUnlockNextFloorLevel()) {
+            NetManager.Instance.addFloor(Manager.GetCurrentBuilding().build_id, (res) => {
+                if (res != null) {
+                    Manager.unlockNextFloorLevel(res);
+                    this.unlockNewFloor();
+                    // if (Manager.getIntroductionType() == Config.IntroductionType.NewFloorClickTip) {
+                    //     Manager.plusIntroductionType();
+                    //     MyNotification.runCallback(MyNotification.callbackType.showIntroduction);
+                    // }
+                    if (Manager.RewardSendType() != 2) {
+                        MyNotification.runCallback(MyNotification.callbackType.showUnlockFloorShareLayer);
+                    }
+                } else {
+                    Wx.getInstance().ShowToast('新建楼层失败,请稍后再试');
+                }
+            })
+
+        }
+    }
+
+    private upgradeCommodity(floorLevel: number) {
+        this.storeNode.upgradeCommodity(floorLevel);
+    }
+
+    private upgradeHandle(floorLevel: number) {
+        this.storeNode.upgradeHandle(floorLevel);
+    }
+
+    private upgradeStock(floorLevel: number) {
+        this.storeNode.upgradeStock(floorLevel);
+    }
+
+    private upgradeLift() {
+        this.liftNode.upgrade();
+    }
+
+    private addTouchListener() {
+
+        this.node.on(cc.Node.EventType.TOUCH_START, (event: cc.Event.EventCustom) => {
+
+        });
+        this.node.on(cc.Node.EventType.TOUCH_MOVE, (event: cc.Event.EventCustom) => {
+            // if (Manager.getIntroductionType() < Config.IntroductionType.PropButton1)
+            //     return
+            let touch: cc.Touch = event.touch;
+            let posY = this.node.y + touch.getDelta().y;
+            let screenSize = Utility.getScreenSize();
+            if (posY > this.maxY) {
+
+                posY = this.maxY;
+            } else if (posY < this.maxY - this.node.height + screenSize.height) {
+
+                posY = this.maxY - this.node.height + screenSize.height;
+            }
+            this.node.y = posY;
+        });
+    }
+
+    public removeAllNode() {
+        this.removeFunciton();
+
+    }
+
+    public removeFunciton() {
+        this.shopperNode.removeAllNode();
+        this.storeNode.removeAllNode();
+        this.liftNode.removeAllNode();
+    }
+
+    public reinit(building: number) {
+        Manager.currentData.buildingObjs[Manager.CurBuilding - 1].offlineTime = Manager.currentData.currentTime;
+        NetManager.Instance.CommonChangeBuilding(Manager.GetCurrentBuilding().build_id, Manager.GetCurrentBuilding().money)
+        if (Manager.currentAtlas)
+            cc.loader.release(Manager.currentAtlas);
+        cc.loader.loadRes('plist/comm/commodity_' + building, cc.SpriteAtlas, (err, res) => {
+            if (err) {
+                console.error(err)
+                return;
+            }
+            Manager.currentAtlas = res
+
+
+            Manager.CurBuilding = building;
+            this.shopperNode.reinit();
+            this.storeNode.reinit();
+            this.liftNode.reinit();
+            this.buildingNode.addNewFloor();
+
+            this.maxY = -Utility.getScreenSize().height / 2;
+            this.node.height = 1400 + this.shopFloorHeigh * Manager.getFloorLevel();
+            let needAtlas: cc.SpriteAtlas = null;
+            switch (building) {
+                default:
+                case 1:
+                    needAtlas = this.building1Atlas;
+                    break;
+                case 2:
+                    needAtlas = this.building2Atlas;
+                    break;
+                case 3:
+                    needAtlas = this.building3Atlas;
+                    break;
+            }
+            this.View.active = building == 1;
+            this.View2.active = building == 2;
+            this.View3.active = building == 3;
+            this.topFloor.spriteFrame = needAtlas.getSpriteFrame("game_top_floor");
+            this.firstFloor.spriteFrame = needAtlas.getSpriteFrame("game_first_floor");
+
+            MyNotification.runMoneyCallbacks();
+
+            MyNotification.runCallback(MyNotification.callbackType.checkOfflineTime)
+            MyNotification.runCallback(MyNotification.callbackType.CloseBuilding)
+
+
+
+            this.node.y = -640;
+        })
+    }
+
+    // update (dt) {}
+}
