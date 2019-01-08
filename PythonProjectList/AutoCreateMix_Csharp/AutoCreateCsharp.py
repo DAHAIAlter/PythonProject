@@ -7,6 +7,7 @@ import random
 import string
 import datetime
 
+
 # 获取原本路径
 curr_path = os.path.split(sys.argv[0])[0]
 
